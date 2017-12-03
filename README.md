@@ -17,7 +17,15 @@ Clone this repository.
 git clone <github-address>
 ```
 
+Install dependencies.
 
+```bash
+npm install
+```
 
+Ignore `node_modules`.
+
+* Create `.gitignore`
+* Write `node_modules`
 
 
