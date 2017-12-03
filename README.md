@@ -1,10 +1,11 @@
 # student-test-deploy
 
-Fork this repository to your account.
+Fork this repository to your account. Press the **fork** button and confirm the location.
+
+![](https://i.imgur.com/FtMNWUz.png)
 
 
-
-Find a location on your computer that is not inside another git repository. Check with `git status`. Should see:
+On your local system, find a location that is not inside another git repository. Check with `git status`. Should see:
 
 ```bash
 fatal: Not a git repository (or any of the parent directories): .git)
