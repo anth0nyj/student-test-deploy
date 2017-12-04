@@ -3,10 +3,10 @@ const mongoose = require('mongoose');
 const app      = express();
 
 // process.env.PORT
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // process.env.MONGODB_URI
-const mongoURI = 'mongodb://localhost/student-test-deploy';
+const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:/student-test-deploy';
 
 mongoose.connect(mongoURI, { useMongoClient: true });
 mongoose.Promise = global.Promise;
